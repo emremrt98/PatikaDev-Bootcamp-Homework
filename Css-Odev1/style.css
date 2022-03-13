@@ -1,0 +1,14 @@
+div ul li{
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+
+.ortala{
+    text-align: center;
+}
+
+div img{
+    height: 300px;
+    margin-top: 50px;
+}
