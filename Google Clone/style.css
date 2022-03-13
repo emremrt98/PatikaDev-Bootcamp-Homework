@@ -1,0 +1,102 @@
+nav ul{
+    display: flex;
+    position: relative;
+    right: -1130px;
+    
+}
+nav{
+
+    height: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: .9rem;
+}
+
+.nav-hov:hover{
+   border-bottom: 1px solid black;
+}
+
+.nav2-hov img{
+    height:30px;
+  
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.nav2-hov img:hover{
+    
+    border: 1px solid #646464;
+    padding: 2px;
+    background-color: #6464645d;
+    
+}
+
+.i1{
+    position: absolute;
+    left: 450px;
+    top: 233.5px;
+    z-index: 1;
+    opacity: .5;
+}
+
+.voice{
+    left: 900px;
+    cursor: pointer;
+}
+
+.keyboard{
+    left: 860px;
+    cursor: pointer;
+}
+
+div input:hover{
+    -webkit-box-shadow: -1px 3px 15px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: -1px 3px 15px -3px rgba(0,0,0,0.51);
+    box-shadow: -1px 3px 15px -3px rgba(0,0,0,0.51);
+  
+}
+
+div button{
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    position: relative;
+    left: 525px;
+    margin-top: 25px;
+}
+
+div button:hover{
+    border: 1px solid #646464;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.322);
+    position: relative;
+    bottom: -274px;
+    width: 100%;
+    display: flex;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    list-style: none;
+
+}
+footer ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
