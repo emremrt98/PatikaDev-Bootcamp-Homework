@@ -4,6 +4,10 @@ nav ul{
     right: -1130px;
     
 }
+
+body{
+    overflow: hidden;
+}
 nav{
 
     height: 50px;
@@ -78,6 +82,7 @@ div button{
 
 div button:hover{
     border: 1px solid #646464;
+
 }
 
 footer{
